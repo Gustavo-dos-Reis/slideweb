@@ -95,7 +95,6 @@ body {
     background-color: white;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .slider {
         height: 300px;
