@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide ativo">
+                <img src="https://via.placeholder.com/800x400?text=Imagem+1" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/800x400?text=Imagem+2" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/800x400?text=Imagem+3" alt="Imagem 3">
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/800x400?text=Imagem+4" alt="Imagem 4">
+            </div>
+        </div>
+
+        <button class="btn-navegacao anterior" id="anterior">&#10094;</button>
+        <button class="btn-navegacao proximo" id="proximo">&#10095;</button>
+
+        <div class="indicadores" id="indicadores">
+            <span class="indicador ativo" data-indice="0"></span>
+            <span class="indicador" data-indice="1"></span>
+            <span class="indicador" data-indice="2"></span>
+            <span class="indicador" data-indice="3"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
